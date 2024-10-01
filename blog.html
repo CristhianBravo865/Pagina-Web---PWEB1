@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Cristhian Bravo</title>
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #31353a;
+            color: #fff;
+        }
+
+        header {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url('images/background1.jpg') no-repeat center center;
+            background-size: cover;
+            color: #fff;
+            padding: 10px 20px;
+            z-index: 1000;
+            box-sizing: border-box;
+        }
+
+        .header-left {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        .header-left h1 {
+            margin: 0;
+            font-size: 24px;
+            text-align: center;
+        }
+
+        .header-left h1 span {
+            display: block;
+        }
+
+        .header-left a {
+            color: #fff;
+         
+            text-decoration: none;
+           
+        }
+
+        .header-left a:hover {
+            color: #fff;
+        }
+
+        main {
+            padding-top: 100px;
+            padding-bottom: 60px;
+            box-sizing: border-box;
+        }
+
+        .blog-post {
+            background-color: rgba(255, 255, 255, 0.1);
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 800px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .blog-post h2 {
+            font-size: 28px;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+
+        .blog-post p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #ddd;
+        }
+
+        .blog-post a {
+            color: #66b2ff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .blog-post a:hover {
+            color: #b0d4ff;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #222;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header-left">
+            <a href="index.html">
+                <h1>CRISTHIAN <span>BRAVO</span></h1>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <div class="blog-post">
+            <h2>Mi primera entrada de blog</h2>
+            <p>Bienvenidos a mi blog. Aquí compartiré mis experiencias en el mundo del desarrollo web, junto con tutoriales, proyectos y recursos útiles para aquellos que estén interesados en aprender más sobre la programación y el diseño web.</p>
+        </div>
+
+        <div class="blog-post">
+            <h2>Explorando nuevas tecnologías</h2>
+            <p>Últimamente he estado probando nuevas herramientas y tecnologías,  para el desarrollo de esta pagina use html y css. </p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Cristhian Bravo</p>
+    </footer>
+</body>
+
+</html>
